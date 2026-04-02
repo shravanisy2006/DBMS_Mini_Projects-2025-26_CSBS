@@ -1,7 +1,8 @@
 {
   "buildCommand": "echo 'Frontend static site ready'",
   "framework": "static",
-  "public": "frontend",
+  "public": true,
+  "root": "frontend",
   "rewrites": [
     {
       "source": "/(?!.*\\.)",
